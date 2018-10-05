@@ -1,6 +1,6 @@
 ## `heroku-buildpack-storybook`
 
-This buildpack builds storybook using `yarn` and is meant to be used before `heroku/static`.
+This buildpack builds storybook using `yarn` and is meant to be used before `https://github.com/heroku/heroku-buildpack-static.git`.
 
 If you are using an `app.json`, it might look something like this:
 
@@ -25,7 +25,7 @@ If you are using an `app.json`, it might look something like this:
       "url": "https://github.com/Root-App/heroku-buildpack-storybook.git"
     },
     {
-      "url": "heroku/static"
+      "url": "https://github.com/heroku/heroku-buildpack-static.git"
     }
   ]
 }
